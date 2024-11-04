@@ -1,6 +1,6 @@
 # Ignore environment files containing sensitive data
-*.env
-*.env.*
+.env
+.env.*
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
