@@ -1,0 +1,41 @@
+# Ignore environment files containing sensitive data
+*.env
+*.env.*
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files, if they are generated or sensitive
+*.csv
+*.tsv
+*.data
+
+# Ignore Python dependencies and virtual environment folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.whl
+*.egg-info/
+dist/
+build/
+venv/
+.env/
+
+# Ignore Poetry lock files, if you don't want to commit them
+poetry.lock
+
+# Ignore any other specific files that might be sensitive or unnecessary
+# such as credentials or configuration files you don't want to share
+*.key
+*.pem
+.secret
+config.yaml
+
+# Ignore system files and IDE settings
+.DS_Store
+.idea/
+.vscode/
+
+# Node.js dependencies (if applicable)
+node_modules/
